@@ -30,3 +30,5 @@ function App() {
 export default App;
 
 //We render our App component, which in turn renders our Scoreboard component that we've imported here and returns our updated values (scores).
+
+//In the props tree structure, App is at the top and passes its states down to Scoreboard and Buttons

@@ -1,5 +1,6 @@
 import React from 'react';
 import BottomRow from "./BottomRow";
+import Timer from './Timer';
 
 /*We have access to homeScore and awayScore in our props object because of line 18 in App.js. 
 Line below could be written as: function Scoreboard({homeScore, awayScore}) {  but then "props" 
@@ -20,7 +21,7 @@ function Scoreboard(props) {
 
                     <div className="home__score">{props.homeScore}</div>
                 </div>
-                <div className="timer">00:03</div>
+                <Timer />
                 <div className="away">
                     <h2 className="away__name">Tigers</h2>
                     <div className="away__score">{props.awayScore}</div>
