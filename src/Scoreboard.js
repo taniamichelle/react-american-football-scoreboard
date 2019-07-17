@@ -1,7 +1,13 @@
 import React from 'react';
 import BottomRow from "./BottomRow";
 
-//We have access to homeScore and awayScore in our props object because of line 18 in App.js.
+/*We have access to homeScore and awayScore in our props object because of line 18 in App.js. 
+Line below could be written as: function Scoreboard({homeScore, awayScore}) {  but then "props" 
+will not show up on console.log. It is the same as: 
+function Scoreboard(props) {
+    const {homeScore, awayScore} = props 
+}
+*/
 function Scoreboard(props) {
     console.log(props)
     return (
