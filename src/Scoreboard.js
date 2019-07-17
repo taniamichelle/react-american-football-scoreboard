@@ -10,7 +10,7 @@ function Scoreboard(props) {
 }
 */
 function Scoreboard(props) {
-    console.log(props)
+    //console.log(props)
     return (
         <section className="scoreboard">
             <div className="topRow">

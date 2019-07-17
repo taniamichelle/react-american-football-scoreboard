@@ -4,11 +4,12 @@ function Timer(props) {
     const [time, setTime] = useState(900);
     //900sec=15 min
     useEffect(() => {
-        console.log('first render');
+        //console.log('first render');
         setInterval(() => {
-            console.log('interval', time);
+            //console.log('interval', time);
+            //lines 11-14 can be written as: setTime(time => time-1); or as: setTime(newTime => newTime-1);
             setTime((newTime) => {
-                console.log('time', time, 'newTime', newTime);
+                //console.log('time', time, 'newTime', newTime);
                 return newTime - 1;
             });
         }, 1000);

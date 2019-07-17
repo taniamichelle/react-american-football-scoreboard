@@ -2,7 +2,7 @@ import React from 'react';
 
 function Buttons(props) {
     const { homeScore, setHomeScore, awayScore, setAwayScore } = props;
-    console.log(props);
+    //console.log(props);
     return (
         <section className="buttons">
             <div className="homeButtons">
